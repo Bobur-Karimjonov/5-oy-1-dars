@@ -74,7 +74,7 @@ function App() {
   </div>
   <ul className="list">
   {todos.map ((e) => (
-    <li className="item" key={e.name.official}>{e.title}
+    <li className="item" key={e.id}>{e.title}
     <img className="img" src={e.flags.png}/>
     <div className="item__body">
     <h3>{e.name.common}</h3>
